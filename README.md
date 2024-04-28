@@ -1,4 +1,6 @@
-### Hi there 👋
+### Aiden Frank Developer Website
+
+Hello, this website is meant to introduce you to myself and show off some of the work I've done as a developer. I will also have things I've been getting up to in life at school or work.
 
 <!--
 **AidenFrank/aidenfrank** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
