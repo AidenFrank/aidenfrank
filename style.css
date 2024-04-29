@@ -1,0 +1,68 @@
+body {
+    align-items: center;
+    background-color: lightslategrey;
+}
+
+.content {
+    background-color: #FF6f61;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: auto;
+    color: white;
+    font-family: 'Nunito', serif;
+    min-width: 300px;
+}
+
+.pfp {
+    width: 15rem;
+    object-fit: cover;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction-text {
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .content {
+        background-color: #FF6f61;
+        border-color: white;
+        border-style: solid;
+        border-width: 5px;
+        border-radius: 10px;
+        padding: 1rem;
+        margin: auto;
+        color: white;
+        font-family: 'Nunito', serif;
+        min-width: 300px;
+    }
+
+    .pfp {
+        max-width: 20rem;
+        min-width: 15rem;
+        width: 20%;
+    }
+
+    .introduction {
+        flex-direction: row;
+    }
+
+    .introduction-text {
+        font-size: 2rem;
+    }
+}
