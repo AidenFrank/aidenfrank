@@ -1,0 +1,85 @@
+:root {
+    --livingcoral: #ff6f61;
+}
+
+@mixin for-phone-only {
+    @media (max-width: 599px) { @content; }
+}
+
+@mixin for-desktop-up {
+    @media (min-width: 1200px) { @content; }
+}
+
+body {
+    align-items: center;
+    background-color: #0f1319;
+}
+
+.content {
+    padding: 1rem;
+    margin: 1.5rem 1rem;
+    color: white;
+    background-color: #181f2a;
+    font-family: 'Nunito', serif;
+    box-shadow: 0px 0px 5px 5px #181f2a;
+    box-sizing: border-box;
+}
+
+#introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    @include for-desktop-up {
+        flex-direction: row;
+    }
+}
+
+.profile-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem 0rem;
+
+    @include for-desktop-up {
+        font-size: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+}
+
+.pfp {
+    width: 50%;
+    max-width: 20rem;
+    min-width: 14rem;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 10px white;
+    margin: 1rem;
+
+    @include for-desktop-up {
+        min-width: 20rem;
+    }
+}
+
+.welcome {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem 0rem;
+
+    @include for-desktop-up {
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+    }
+}

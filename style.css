@@ -1,68 +1,80 @@
+:root {
+  --livingcoral: #ff6f61;
+}
+
 body {
-    align-items: center;
-    background-color: lightslategrey;
+  align-items: center;
+  background-color: #0f1319;
 }
 
 .content {
-    background-color: #FF6f61;
-    border-color: white;
-    border-style: solid;
-    border-width: 5px;
-    border-radius: 10px;
+  padding: 1rem;
+  margin: 1.5rem 1rem;
+  color: white;
+  background-color: #181f2a;
+  font-family: "Nunito", serif;
+  box-shadow: 0px 0px 5px 5px #181f2a;
+  box-sizing: border-box;
+}
+
+#introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+@media (min-width: 1200px) {
+  #introduction {
+    flex-direction: row;
+  }
+}
+
+.profile-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 1rem 0rem;
+}
+@media (min-width: 1200px) {
+  .name {
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 1rem;
-    margin: auto;
-    color: white;
-    font-family: 'Nunito', serif;
-    min-width: 300px;
+  }
 }
 
 .pfp {
-    width: 15rem;
-    object-fit: cover;
-    border-color: white;
-    border-style: solid;
-    border-width: 5px;
-    border-radius: 50%;
+  width: 50%;
+  max-width: 20rem;
+  min-width: 14rem;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 10px white;
+  margin: 1rem;
+}
+@media (min-width: 1200px) {
+  .pfp {
+    min-width: 20rem;
+  }
 }
 
-.introduction {
+.welcome {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem 0rem;
+}
+@media (min-width: 1200px) {
+  .welcome {
+    font-size: 2rem;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-}
-
-.introduction-text {
-    margin: 1rem;
-    font-size: 1.5rem;
-}
-
-@media only screen and (min-width: 1200px) {
-
-    .content {
-        background-color: #FF6f61;
-        border-color: white;
-        border-style: solid;
-        border-width: 5px;
-        border-radius: 10px;
-        padding: 1rem;
-        margin: auto;
-        color: white;
-        font-family: 'Nunito', serif;
-        min-width: 300px;
-    }
-
-    .pfp {
-        max-width: 20rem;
-        min-width: 15rem;
-        width: 20%;
-    }
-
-    .introduction {
-        flex-direction: row;
-    }
-
-    .introduction-text {
-        font-size: 2rem;
-    }
-}
+    justify-content: center;
+    padding: 1rem;
+  }
+}/*# sourceMappingURL=style.css.map */
