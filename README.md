@@ -1,11 +1,11 @@
-## Hi my name is Aiden!
+## Hi, my name is Aiden!
 I am a Computer Science major at the University of Cincinnati. Pleased to meet you!
 
 Some fun facts about me:
 
-..* I am an Eagle Scout
-..* I ran my first marathon in 2024
-..* I am currently learning piano
+* I am an Eagle Scout
+* I ran my first marathon in 2024
+* I am currently learning piano
 
 Feel free to connect with me on [Linkedin](https://www.linkedin.com/in/aiden-frank/)!
 
